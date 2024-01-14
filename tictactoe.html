@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tictactoe</title>
+        <link rel="stylesheet" href="tic-tac-toe.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+        <h1 id="title">TicTacToe</h1>
+        <nav class="options">
+                Player 1:<input type="text" placeholder="Name" class="names" id="player1">Player 2:<input type="text"
+                        placeholder="Name" class="names" id="player2">
+                <aside id="stopwatch"></aside>
+        </nav>
+        <div class="container">
+                <aside id="winner" class="declaringResult fadeinoutanimation"></aside>
+                <div class="grid-container">
+                        <button class="buttons" id="number1"><span></span></button><button class="buttons"
+                                id="number2"><span> </span></button><button class="buttons" id="number3"><span>
+                                </span></button>
+
+                        <button class="buttons" id="number4"><span> </span></button><button class="buttons"
+                                id="number5"><span> </span></button><button class="buttons" id="number6"><span>
+                                </span></button>
+
+                        <button class="buttons" id="number7"><span> </span></button><button class="buttons"
+                                id="number8"><span> </span></button><button class="buttons" id="number9"><span>
+                                </span></button>
+                </div>
+                <aside id="loser" class="declaringResult fadeinoutanimation"></aside>
+        </div>
+        <div class="result"></div>
+        <footer><button id="resetButton">RESET SCORES</button><span id="highScore"></span></footer>
+
+
+
+
+
+
+
+        <script src="tic-tac-toe.js"></script>
+</body>
+
+</html>
